@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*-------navigation bar------*/
+
+#nav-bar {
+  top: 0;
+  position: sticky;
+  z-index: 10;
+}
+
+#nav-bar .navbar {
+  background-color: #333333;
+  padding: 0;
+  max-height: 80px;
+}
+
+#nav-bar .navbar-brand img {
+  margin-left: 25px;
+ 
+}
+
+#nav-bar ul li a.nav-link {
+  color: #fff;
+  padding: 25px 15px;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase; 
+}
+
+#nav-bar ul li a:hover, #nav-bar ul .nav-item.active {
+  background-color: dodgerblue;
+}
+
+/*------slider------*/
+#slider .strong{
+  font-weight: bolder; 
+}
+#slider .carousel-caption h2{
+  background-color: #ffbf00;
+  font-size: 25px;
+  padding: 5px 0;
+  width: 70%;
+  margin-left: 10%;
+}
+
+#slider h3{
+  background-color: black;
+  font-size: 25px;
+  padding: 10px 0;
+  width: 80%;
+  height: 50px;
+  margin: 30px;
+}
+
+#slider .carousel-inner img{
+  width: 100%;
+}
+
+#slider .carousel-caption {
+  position: absolute;
+  top: 100px;
+  margin: auto;
+  width: 50%;
+  z-index: 1;
+}
+
+
+/* #slider .cred{
+  width: 100%;
+} */
+
+#slider .btn {
+  padding: 15px;
+  margin-right: 50px;
+  width: 200px;
+  border: 3px solid #fff;
+  font-size: 1.5rem;
+}
+/*-------what we do--------*/
+
+
+#what_we_do h1{
+text-align: center;
+color:#3498DB ;
+padding: 15px;
+}
+
+#what_we_do .services{
+  z-index: 1;
+}
+
+#what_we_do p{
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#what_we_do .col-md-4 h2{
+font-size: 20px;
+font-weight: 700;
+}
+
+/*-----------services--------*/
+#services {
+  background-color: #343434;
+  padding: 60px 0;
+  margin-top: 60px;
+  color: white;
+}
+
+#services h1, #services h2 {
+  color: #3498DB;
+}
+
+/*--------products-----*/
+
+#products h1{
+  color: #fff;
+  padding: 15px;
+}
+
+#products p{
+  text-align: justify;
+}
+
+#products {
+  background: url(../img/HomeDesktophtml_row2.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-height: 450px;
+  color: white;
+}
+#products .btn{
+  margin-left:600px ;
+  border-radius:20px ;
+  margin-bottom: 25px;
+}
+
+#products .btn:hover{
+
+ background-color: gray; 
+ border:none;
+ color: #fff;
+}
+
+/*---------projects-------*/
+
+#projects h1{
+color: #3498DB ;
+padding: 15px;
+}
+
+#projects p{
+ font-size: 15px;
+ font-weight: 600;
+}
+
+/*---------footer----------*/
+
+#footer{
+  background-color: #333333;
+  margin-top: 25px;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+#footer h3{
+ font-size: 12px;
+ margin-top: 10px;
+ color: #fff;
+}
+
+#footer h2{
+  font-size: 20px;
+  margin-top: 25px;
+  color: #3498DB;
+}
+
+#footer .line {
+  height: 5px;
+  width: 100%;
+  background-color: #3498DB;
+  margin: 35px 0;
+}
+
+#footer h4{
+  color: #fff;
+  font-size:20px ;
+  font-weight: 300;
+}
+
+#footer .icons {
+  display: flex;
+  list-style-type: none;
+  margin-top: 0;
+  justify-content: flex-end;
+}
+
+#footer .icons .fa {
+  line-height: 32px;
+  padding-left: 10px;
+  color: #fff;
+  background-color: #3498DB;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  margin: 5px;
+}

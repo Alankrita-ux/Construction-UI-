@@ -1,0 +1,169 @@
+/*-----------navigation bar--------*/
+
+#nav-bar {
+  top: 0;
+  position: sticky;
+  z-index: 10;
+}
+
+#nav-bar .navbar {
+  background-color: #333333;
+  padding: 0;
+  max-height: 80px;
+}
+
+#nav-bar .navbar-brand img {
+  margin-left: 25px;
+}
+
+#nav-bar ul li a.nav-link {
+  color: #fff;
+  padding: 25px 15px;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+#nav-bar ul li a:hover, #nav-bar ul li.nav-item.active {
+  background-color: dodgerblue;
+}
+
+/*-----------about us--------*/
+
+#about-us h1 {
+  color: #3498db;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+#about-us {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+/*----------our history---------*/
+
+#history h1 {
+  color: #3498db;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 20px;
+  padding-top: 30px;
+}
+#history p {
+  font-weight: 500;
+  font-size: 15px;
+  color: #fff;
+}
+
+#history {
+  background-color: #333333;
+}
+
+#history h2 {
+  color: #3498db;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+/*---------our rewards-----------*/
+
+#rewards {
+  background-image: url(../img/HomeDesktophtml_row2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#rewards p {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+#rewards .btn {
+  border-radius: 20px;
+  margin-bottom: 25px;
+}
+#rewards .btn:hover {
+  background-color: gray;
+  border: none;
+  color: #fff;
+}
+
+#rewards h1 {
+  font-weight: 600;
+  padding-top: 30px;
+}
+
+/*------our team-------*/
+
+#team h1 {
+  color: #3498db;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+#team p {
+  font-weight: 500;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+#team h2 {
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+/*--------footer--------*/
+
+#footer {
+  background-color: #333333;
+  margin-top: 25px;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+#footer h3 {
+  font-size: 12px;
+  margin-top: 10px;
+  color: #fff;
+}
+
+#footer h2 {
+  font-size: 20px;
+  margin-top: 25px;
+  color: #3498db;
+}
+
+#footer .line {
+  height: 5px;
+  width: 100%;
+  background-color: #3498db;
+  margin: 35px 0;
+}
+
+#footer h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#footer .icons {
+  display: flex;
+  list-style-type: none;
+  margin-top: 0;
+  justify-content: flex-end;
+}
+
+#footer .icons .fa {
+  line-height: 32px;
+  padding-left: 10px;
+  color: #fff;
+  background-color: #3498db;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  margin: 5px;
+}

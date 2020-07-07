@@ -1,0 +1,46 @@
+/*--------navigation bar--------*/
+
+#nav-bar {
+    top: 0;
+    position: sticky;
+    z-index: 10;
+  }
+  
+  #nav-bar .navbar {
+    background-color: #333333;
+    padding: 0;
+    max-height: 80px;
+  }
+  
+  #nav-bar .navbar-brand img {
+    margin-left: 25px;
+  }
+  
+  #nav-bar ul li a.nav-link {
+    color: #fff;
+    padding: 25px 15px;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  
+  #nav-bar ul li a:hover, #nav-bar ul li.nav-item.active {
+    background-color: dodgerblue;
+  }
+
+  /*---------contact----------*/
+
+#contact h1{
+    color: #3498db;
+    margin-top: 20px;
+}
+
+#contact h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#contact h3{
+    font-size:15px;
+    font-weight: 400;
+}
